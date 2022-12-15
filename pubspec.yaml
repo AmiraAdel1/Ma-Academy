@@ -41,6 +41,7 @@ dev_dependencies:
   page_transition: ^2.0.9
   percent_indicator: ^4.2.2
   sizer: ^2.0.15
+  flutter_svg: ^1.0.3
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

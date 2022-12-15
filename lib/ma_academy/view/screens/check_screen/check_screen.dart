@@ -1,8 +1,8 @@
 // ignore_for_file: depend_on_referenced_packages
 
+import 'package:flutter/material.dart';
 import 'package:ma_academy/core/assets_manager.dart';
 import 'package:ma_academy/core/color_manager.dart';
-import 'package:flutter/material.dart';
 import 'package:ma_academy/core/font_manager.dart';
 import 'package:ma_academy/ma_academy/view/widgets/custom_app_bar/custom_app_bar.dart';
 import 'package:sizer/sizer.dart';
@@ -66,7 +66,9 @@ class CheckScreen extends StatelessWidget {
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 8.w),
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushNamed(context, 'chooseTurn');
+                },
                 style: ElevatedButton.styleFrom(
                   // backgroundColor: const Color.fromARGB(255, 83, 198, 179),
                   backgroundColor: const Color(0xFFff5757),
