@@ -109,9 +109,7 @@ class LoginScreen extends StatelessWidget {
                             ),
                           ),
                         ),
-                        SizedBox(
-                          height: 4.h,
-                        ),
+                        SizedBox(height: 4.h),
                         CustomButton(
                           onPressd: () {
                             Navigator.pushNamed(context, 'loginScreen');
