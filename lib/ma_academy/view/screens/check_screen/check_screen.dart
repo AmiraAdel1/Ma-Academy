@@ -88,7 +88,9 @@ class CheckScreen extends StatelessWidget {
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 8.w),
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushNamed(context, "VisitorType");
+                },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: const Color(0xFFff5757),
                   minimumSize: const Size.fromHeight(50),

@@ -81,26 +81,6 @@ class RegisterScreen extends StatelessWidget {
                         ),
                         SizedBox(height: 2.h),
                         Text(
-                          'National ID :',
-                          style: TextStyle(
-                            fontSize: FontSize.s14,
-                            fontWeight: FontWeightManager.w400,
-                          ),
-                        ),
-                        TextFormField(
-                          keyboardType: TextInputType.phone,
-                          cursorColor: ColorManager.primary,
-                          decoration: InputDecoration(
-                            enabledBorder: const UnderlineInputBorder(),
-                            focusedBorder: UnderlineInputBorder(
-                              borderSide: BorderSide(
-                                color: ColorManager.primary,
-                              ),
-                            ),
-                          ),
-                        ),
-                        SizedBox(height: 2.h),
-                        Text(
                           'Phone Number :',
                           style: TextStyle(
                             fontSize: FontSize.s14,
